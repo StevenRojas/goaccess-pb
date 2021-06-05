@@ -1,3 +1,3 @@
 # goaccess-pb
 
-To complile use: `protoc --proto_path=proto --go_out=plugins=grpc:pkg/pb --grpc-gateway_out=logtostderr=true:pkg/pb proto/*.proto`
+To complile use: `protoc --proto_path=api/proto --go_out=plugins=grpc:pkg --grpc-gateway_out=logtostderr=true:pkg api/proto/*.proto`
